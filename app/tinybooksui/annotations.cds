@@ -30,8 +30,13 @@ annotate service.Books with @(
             },
                         {
                 $Type : 'UI.DataField',
-                Label : 'desc',
-                Value : desc,
+                Label : 'modifiedAt',
+                Value : modifiedAt,
+            },
+            {
+                $Type : 'UI.DataField',
+                Label : 'modifiedBy',
+                Value : modifiedBy,
             },
         ],
     },
@@ -70,6 +75,16 @@ annotate service.Books with @(
             Value : createdBy,
         },
                 {
+            $Type : 'UI.DataField',
+            Label : 'modifiedAt',
+            Value : modifiedAt,
+        },
+        {
+            $Type : 'UI.DataField',
+            Label : 'modifiedBy',
+            Value : modifiedBy,
+        },
+        {
             $Type : 'UI.DataField',
             Label : 'desc',
             Value : desc,
