@@ -38,6 +38,11 @@ annotate service.Books with @(
                 Label : 'modifiedBy',
                 Value : modifiedBy,
             },
+            {
+                $Type : 'UI.DataField',
+                Label : 'desc',
+                Value : desc,
+            },
         ],
     },
     UI.Facets : [
